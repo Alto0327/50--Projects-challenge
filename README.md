@@ -5,7 +5,7 @@ The Goal here is for 50 days Create one of these projects picked at random by ch
 2. At most a project can take up to 3 days and each day i must commit an update of the project
 3. Upload to github at least once each day
 
-
+	
 #The list of projects:
 -3D Navbar Animation
 -Blob Effect Micro Interaction
