@@ -1,9 +1,11 @@
-The Goal here is for 50 days Create one of these projects picked at random by chatgpt to enchance coding skills, each day will include the reference files of the project
+The Goal here is for 50 days to Create one of these projects picked at random by ChatGPT to enhance coding skills, each day will include the reference files of the project
 
 #RULES
-1. I can't look at any of the code for the reference projects and must only look at the ui/ux
-2. At most a project can take up to 3 days and each day i must commit an update of the project
-3. Upload to github at least once each day
+1. I can't look at any of the code for the reference projects until my version is complete
+2. Once completed I'll look at the reference code and compare and write a report on my struggle
+3. redo the Project if there are alternative ways to solve it or if it doesn't match the reference results
+4. At most a project can take up to 3 days and each day I must commit an update of the project
+5. Upload to GitHub at least once each day
 
 	
 #The list of projects:
