@@ -7,15 +7,15 @@ The Goal here is for 50 days Create one of these projects picked at random by ch
 
 
 #The list of projects:
-3D Navbar Animation
-Blob Effect Micro Interaction
-Calculator
-cardHover
-coffe landing page
-Cup Animation
-customized scrollbar
-DeadPool
-Digital Clock
+-3D Navbar Animation
+-Blob Effect Micro Interaction
+-Calculator
+-cardHover
+-coffe landing page
+-Cup Animation
+-customized scrollbar
+-DeadPool
+-Digital Clock
 Download Button MI
 Emoji Rating
 Expandable Gallery
