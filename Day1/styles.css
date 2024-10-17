@@ -1,0 +1,48 @@
+/* 
+    wasn't able to figure out how the background top was moving like water so mine just moves statically up
+
+    After finishing it, I was able to figure out how to make it move like water they do it by transforming the background color as well as moving it up and into the cup  
+        this works due to the background only showing while it is inside the cup
+    ::after was used to create the moving water meanwhile i didn't 
+*/
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+
+.cup{
+    display: block;
+    width: 300px;
+    border: 4px solid black;
+    height: 300px;
+    border-radius:40% / 10% 10% 40% 40%;
+    background: linear-gradient(to top, blue 50%, transparent 0);
+    background-size: 100% 200%  ;
+    background-position: top;
+    animation: makeItfadeIn 3s 2s infinite;
+}
+
+.handle{
+    border: 4px solid black;
+    width: 60px;
+    height: 120px;
+    margin-top: -35px;
+    margin-left: -4px;
+    border-radius: 0 30% 30% 0;
+}
+
+
+@keyframes makeItfadeIn {
+    50% {
+      background-position: bottom;
+
+    }
+    0%, 100%{
+        background-position: top;
+    }
+}
