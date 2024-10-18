@@ -1,0 +1,40 @@
+:root{
+    --purple: #3820a3;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+
+.feedback{
+    background: white;
+    height: 200px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    border-radius: 5%;
+    box-shadow: 4px 4px 0px 3px var(--purple);
+}
+
+.emoji{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.rating i.active{
+    color: var(--purple);
+}
+
