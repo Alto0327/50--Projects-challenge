@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.parent{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.parent:hover *{
+    background-color: purple;
+    border: none;
+    opacity: 0.5;
+
+}
+.Blob{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #a9ff68;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;;
+    position: absolute;
+}
+
+.top{   
+    rotate: 90deg;
+    animation: blobSpin 5s infinite 
+
+}
+
+.Middle{
+    animation: blobSpin 3s reverse infinite 
+}
+
+.Bottom{
+    rotate: 270deg;  
+    animation: blobSpin 2s infinite 
+}
+
+@keyframes blobSpin {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
