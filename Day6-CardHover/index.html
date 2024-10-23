@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Hover</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- 
+    REPORT
+     Just like day 5 this was one of the more easier projects. However, i was stuck on the drop down of the content due to it appearing instead of sliding down. I then realized the
+     reason was i was using display:none into display: block which is static causing the issue, switching to opacity fixed the problem
+
+     REDO:
+     - Refactor css
+     - use JS
+    
+    -->
+  </head>
+  <body>
+    <div class="card">
+      <div class="imgBox">
+        <img
+          src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          height="150"
+        />
+      </div>
+      <div class="content">
+        <h2>Kyoto</h2>
+        <p>
+          Kyoto, once the capital of Japan, is a city on the island of Honshu.
+          It’s also known for formal traditions such as kaiseki dining.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
