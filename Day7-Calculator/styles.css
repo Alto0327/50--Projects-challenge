@@ -28,6 +28,10 @@ body{
     align-items: center;
 }
 
+#displayInput:focus{
+    outline: none;
+}
+
 .button-container{
     width: 360px;
     height: 350px;
