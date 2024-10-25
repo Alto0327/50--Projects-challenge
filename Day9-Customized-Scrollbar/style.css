@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+    background-color: black;
+
+}
+
+::-webkit-scrollbar{
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    width: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
