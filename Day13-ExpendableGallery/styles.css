@@ -1,0 +1,41 @@
+*{
+    margin:0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gallery{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 35rem;
+}
+
+.card{
+    width: 10rem;
+    height: 20rem;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    border-radius: 5rem;
+    transition: .4s ease-in-out;
+    flex: .15;
+}
+
+.card img{
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.card:hover{
+    flex: 1 1 0;
+    border-radius: 1rem;
+}
